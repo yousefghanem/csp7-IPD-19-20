@@ -7,8 +7,8 @@
 ####
 
 team_name = 'God Tier Masters' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'Kindest Betrayer'
+strategy_description = 'This player does the opposite of the previous action by the opponent and looks for betrayals from opponent and copies the betrayal on the next turn.'
     
 def move(my_history, their_history, my_score, their_score):
   ''' Arguments accepted: my_history, their_history are strings.
@@ -24,7 +24,7 @@ def move(my_history, their_history, my_score, their_score):
   # The most recent round is my_history[-1] and their_history[-1].
 
   # This player does the opposite of the previous action by the opponent
-  #Added change included or
+  #Added change included and
   #Added change looks for betrayals from opponent and copies the betrayal on the next turn
   if len(my_history)==0:
     return 'c'
