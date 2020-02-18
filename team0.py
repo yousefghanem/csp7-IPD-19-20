@@ -6,9 +6,11 @@
 #     move: A function that returns 'c' or 'b'
 ####
 
+
 team_name = 'God Tier Masters' # Only 10 chars displayed.
 strategy_name = 'Kindest Betrayer'
 strategy_description = 'This player does the opposite of the previous action by the opponent and looks for betrayals from opponent and copies the betrayal on the next turn.'
+
     
 def move(my_history, their_history, my_score, their_score):
   ''' Arguments accepted: my_history, their_history are strings.
